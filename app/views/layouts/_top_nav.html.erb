@@ -66,7 +66,7 @@
         </li>
         <li class="nav-item" data-testid="cart-btn">
           <%= link_to cart_path, class: "nav-link " do %> <%= fa_icon "shopping-cart" %>
-          My Cart <span data-testid='amount-in-cart'>(<%= cart.size, class: "amount-in-car" %>)</span> <% end %>
+          My Cart <span data-testid='amount-in-cart'>(<%= cart.size %>)</span> <% end %>
         </li>
         <% if current_user %>
           <li class="nav-item nav-link ">
