@@ -64,9 +64,9 @@
           <%= link_to about_index_path, class: "nav-link " do %>
           About Us <% end %>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" data-testid="cart-btn">
           <%= link_to cart_path, class: "nav-link " do %> <%= fa_icon "shopping-cart" %>
-          My Cart (<%= cart.size %>) <% end %>
+          My Cart <span data-testid='amount-in-cart'>(<%= cart.size, class: "amount-in-car" %>)</span> <% end %>
         </li>
         <% if current_user %>
           <li class="nav-item nav-link ">
