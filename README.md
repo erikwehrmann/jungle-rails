@@ -1,7 +1,9 @@
 # Jungle
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+
 This project was used as an example of real world scenarios in which I would be given tasks on an existing project. For exmaple fixing bugs and adding features.
+
 It was an exercise for me to utilize and practice using different git branches to keep the main/master branch cleaner.
 As well as that, this prokect helped me learn Ruby on Rails and the benefits that come along with it.
 
