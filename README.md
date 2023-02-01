@@ -7,10 +7,10 @@ As well as that, this prokect helped me learn Ruby on Rails and the benefits tha
 
 ## What did I do?
 
--Added **Sold Out** badge feature
--Added and fixed admin pages as well as implementing a HTTP Authentication form for admins
--Added User authentication
--Enchanced the order details page and changed the cart page when empty
+- Added **Sold Out** badge feature
+- Added and fixed admin pages as well as implementing a HTTP Authentication form for admins
+- Added User authentication
+- Enchanced the order details page and changed the cart page when empty
 
 ## Setup
 
